@@ -1,10 +1,12 @@
-/* Main css file that rules the full design of the website. */
+/* I am Emilienne Vincens and this is my fullinfo page. It is due on Sunday 5th of October. 
+Main css file that rules the full design of the website. */
 
 body{background-color:#F1EFC8;
     font-family:geneva;
     color:darkgreen;
     clear:both;
 }
+
 h1{ color:darkgreen;
     text-align:center;
     font-size:60px;
@@ -24,7 +26,8 @@ h3{color:#C6AA58;
 #logo{float:left;
 	 margin:10px;
      width:150px;
-     height:102px;}
+     height:102px;
+}
 
 
 #button{text-align:center;
@@ -50,12 +53,14 @@ h3{color:#C6AA58;
 }
 
 a, a:visited {color: #C6AA58;
-    text-decoration :underline 2px #C6AA58;
-    text-underline-offset: 5px; 
+     text-decoration :underline 2px #C6AA58;
+     text-underline-offset: 5px; 
 }
 
 a:hover{color :darkgreen;
-text-decoration:italic}
+     font-style:italic;
+}
+
 
 
 
