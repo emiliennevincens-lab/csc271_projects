@@ -1,0 +1,13 @@
+/* This is my secndary page that rules the display of the different infos of gas station*/
+
+.imagetext{float:left;
+     width:526px;
+     margin:30px;
+}
+
+.time{font-weight: bolder;
+
+}
+
+.price{color:#C6AA58;
+    font-weight: bolder;}
