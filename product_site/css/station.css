@@ -4,11 +4,19 @@ This is my secndary page that rules the display of the different infos of gas st
 .imagetext{float:left;
      width:526px;
      margin:30px;
+     border:solid 1px white;
 }
 
 .time{font-weight: bolder;
 
 }
 
-.price{color:#C6AA58;
+.price{color:#f1d88a;
     font-weight: bolder;}
+
+@media only screen and (max-width: 600px) {
+     .imagetext{width:100%;
+     margin:10px;
+     }
+
+}

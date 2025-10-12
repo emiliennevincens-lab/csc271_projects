@@ -1,4 +1,5 @@
-/* Main css file that rules the full design of the website. */
+/* I am Emilienne Vincens and this is my main.css file. 
+Main css file that rules the full design of the website. */
 
 body{background-color:#F1EFC8;
     font-family:geneva;
@@ -9,44 +10,58 @@ h1{ color:darkgreen;
     text-align:center;
     font-size:60px;
     font-weight:bolder;
-    font-family:gergia;
-    word-wrap: break-word;
+    font-family:georgia;
 }
 
 h3{color:#C6AA58;
     border:3px solid #C6AA58;
     padding: 5px 30px; 
     border-radius: 10px; 
-    background-color:green;
+    background-color:darkgreen;
     display: inline-block;
 }
 
-#logo{float:left;
-	 margin:10px;
-     width:150px;
-     height:102px;}
+#logo{
+	 margin:20px auto 20px 20px;
+     padding: 50px auto;
+     width:100%;
+     height:102px;
+    float:left;}
 
 
-#button{text-align:center;
+.button{text-align:center;
      font-size:xx-large;
-     color:darkgreen;
-     border:3px solid #C6AA58;
-     display:inline-block;
-     padding: 5px 30px; 
+     background-color:darkgreen;
+     margin: 50px auto 10px; 
+     padding: 15px 3px 1px;
+     width:300px;
      border-radius: 10px; 
-     background-color:green;
      text-align:center;
+     color:#f1d88a;
+      clear:left;
+}
+
+#choose{text-align:center;
+     font-size:xx-large;
+     background-color:darkgreen;
+     margin: 50px 60px 10px; 
+     padding: 15px 3px 15px;
+     width:200px;
+     border-radius: 10px; 
+     text-align:center;
+     color:#f1d88a;
+    float:right;
 }
 
 #return{text-align:center;
      font-size:xx-large;
-     color:darkgreen;
-     border:3px solid #C6AA58;
-     display:inline-block;
-     padding: 5px 30px; 
-     border-radius: 10px; 
      background-color:darkred;
-     text-align:center;
+     margin: 50px 60px 10px; 
+     padding: 15px 3px 15px;
+     width:200px;
+     border-radius: 10px; 
+     color:#f1d88a;
+    float:left;
 }
 
 a, a:visited {color: #C6AA58;
@@ -54,8 +69,132 @@ a, a:visited {color: #C6AA58;
     text-underline-offset: 5px; 
 }
 
-a:hover{color :darkgreen;
-text-decoration:italic}
+a:hover{color :green;
+text-decoration:underline 2px green;}
+
+/*Beginning of div definitions, due on 13th of October
+
+Header definition */
+.header{background-color:#f1d88a;
+    margin: 0px 0px 6px;
+    padding:6px;
+    text-align: center;
+    width:100%;
+}
+.header-left{display:flex;
+float:left;}
+
+/*Searchbar definition */
+.searchbar{background-color:darkgreen;
+    display:flex;
+    padding:15px;
+    justify-content:space-between;
+    width:100%;
+    margin: 0px;
+}
+.searchbar a{color:#f1d88a;
+    font-size: 20px;
+    text-decoration:none;
+    padding:12px;
+    text-align: center;
+    font-weight: bolder;
+    margin:0px 30px;
+}
+.searchbar a:hover {color:C6A45D;
+        border:solid 1px #f1d88a;
+        font-size: 20px
+        cursor : pointer;
+}
+.active{ color:#C6A45D;
+    border:solid 1px #f1d88a;
+    font-size: 20px;
+    text-decoration:none;
+    padding:100px;
+    text-align: center;
+
+}
 
 
+/*Main content definition */
+.main{background-color: #C6AA58;
+    padding:15px;
+    margin:7px 0px 0 0;
+    float:left;
+    width:100%;
 
+}
+
+.minor-left{ 
+    width:30.5%;
+    float:left;
+    text-align: center;
+    border:solid 3px #C6A45D;
+    background-color:#f1d88a;
+    margin:7px 7px 0 0;
+    padding:10px;
+    clear:bottom;
+}
+
+.minor-full{ 
+    width:100%;
+    float:left;
+    text-align: center;
+    border:solid 3px #C6A45D;
+    background-color:#f1d88a;
+    margin:7px 7px 0 0;
+    padding:10px;
+    clear:bottom;
+}
+
+.tutorial{
+    width:auto;
+    float:left;
+    background-color:#f1d88a;
+    margin:10px 7px 20px 40px;
+    padding:20px;
+    clear:right;
+}
+
+.main-right{
+    width:50%;
+    float:right;
+}
+
+/* Difference wanted for smaller screens like phone screens */
+ @media only screen and (max-width: 600px) {
+  .header {
+    float:none;
+    display:block;
+    align:center
+  }
+ .minor-left{width:98%}
+
+ #logo{
+	 margin:auto ;
+     padding: 50px auto;
+     height:102px;
+     align-items:center; 
+     text-align: center;   
+}
+.main-right{
+    width:100%;
+    padding-left:15px;
+}
+#choose{
+     font-size:x-large;
+     margin: 50pX 60px 0 0;
+     padding: 15px 3px 15px;
+     width:100px;
+}
+
+#return{
+     font-size:x-large;
+     margin: 50px 0px 10px 60px; 
+     padding: 15px 3px 15px;
+     width:100px;
+ }
+
+ .searchbar a{
+    font-size: 15px;
+    margin:0px 0px;}
+ }
