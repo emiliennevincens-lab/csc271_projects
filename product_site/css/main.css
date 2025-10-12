@@ -22,10 +22,10 @@ h3{color:#C6AA58;
 }
 
 #logo{
-	 margin:20px auto 20px 20px;
-     padding: 50px auto;
-     width:100%;
-     height:102px;
+	 margin:20px 0px 20px 20px;
+     padding: 50px 0px;
+     width:auto;
+     height:100px;
     float:left;}
 
 
@@ -100,9 +100,9 @@ float:left;}
     font-weight: bolder;
     margin:0px 30px;
 }
-.searchbar a:hover {color:C6A45D;
+.searchbar a:hover {color:#C6A45D;
         border:solid 1px #f1d88a;
-        font-size: 20px
+        font-size: 20px;
         cursor : pointer;
 }
 .active{ color:#C6A45D;
@@ -132,7 +132,6 @@ float:left;}
     background-color:#f1d88a;
     margin:7px 7px 0 0;
     padding:10px;
-    clear:bottom;
 }
 
 .minor-full{ 
@@ -143,7 +142,6 @@ float:left;}
     background-color:#f1d88a;
     margin:7px 7px 0 0;
     padding:10px;
-    clear:bottom;
 }
 
 .tutorial{
@@ -167,11 +165,12 @@ float:left;}
     display:block;
     align:center
   }
- .minor-left{width:98%}
+ .minor-left{width:98%;
+}
 
  #logo{
-	 margin:auto ;
-     padding: 50px auto;
+	 margin:0px ;
+     padding: 50px 0px;
      height:102px;
      align-items:center; 
      text-align: center;   
