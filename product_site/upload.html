@@ -1,22 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <!-- I am Emilienne Vincens and this is my upload page. It is due on Sunday 28th of Sept.
      This page allows users to upload their route before reviewing all the stations options.
      It will asks them their route, their gas type and offers them some help to choose the right gasoline or to know how to refill their car -->
     <head>
         <title>Upload your journey</title>
         <link href="css/main.css" rel="stylesheet" type="text/css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           
-        <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-EHM32TRVWD"></script>
-        <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
 
-        gtag('config', 'G-EHM32TRVWD');
-        </script>
 
     </head>
     <body>
@@ -30,7 +22,7 @@
         <div class="searchbar">
             <a class="link" href="welcome.html">Home</a>
             <a class="active" href="upload.html">Plan</a>
-            <a class="link" href="stationinfo.html">Map</a>
+            <a class="link" href="fullinfo.html">Map</a>
             <a class="link" href="welcome.html">Favourite</a>
             <a class="link" href="welcome.html">Settings</a>
 
@@ -46,16 +38,16 @@
         <form action="welcome.html" method="get">
            
             <p> <img src="images/icon_plus.png" alt="plus icon" width="30" height="42"> 
-                Starting point : <input type="text" name="starting" title="starting point of your trip"> </p>
+                Starting point : <input type="text" name="starting"> </p>
             <p> <img src="images/icon_car.png" alt="car icon" width="30" height="42">
-                Destination :    <input type="text" name="destination" title="ending point of your trip"> </p>
+                Destination :    <input type="text" name="destination"> </p>
             <p><img src="images/icon_gas.png" alt="gas icon" width="32" height="42">
-                Type of fuel :   <input type="radio" name="fueltype" title="type of your car's gas" value="electricity"> Electricity
-                                <input type="radio" name="fueltype" title="type of your car's gas" value="diesel"> Diesel
-                                <input type="radio" name="fueltype" title="type of your car's gas" value="gasoline87"> Regular gasoline
-                                <input type="radio" name="fueltype" title="type of your car's gas" value="gasoline89"> Plus gasoline 
-                                <input type="radio" name="fueltype" title="type of your car's gas" value="gasoline91"> Midgrade gasoline 
-                                <input type="radio" name="fueltype" title="type of your car's gas" value="gasoline93"> Premium gasoline 
+                Type of fuel :   <input type="radio" name="fueltype" value="electricity"> Electricity
+                                <input type="radio" name="fueltype" value="diesel"> Diesel
+                                <input type="radio" name="fueltype" value="gasoline87"> Regular gasoline
+                                <input type="radio" name="fueltype" value="gasoline89"> Plus gasoline 
+                                <input type="radio" name="fueltype" value="gasoline91"> Midgrade gasoline 
+                                <input type="radio" name="fueltype" value="gasoline93"> Premium gasoline 
                             </p>
             <br>
             &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; <input type="submit" name="submit">
@@ -82,7 +74,7 @@
         <div class="minor-left">
             <h2>Tutorial</h2>
                 <p>Need a quick tutorial? Watch this video!</p> &emsp;
-            <iframe width="200" height="133" title=" How to fill up your gas tank safely"
+            <iframe width="200" height="133" 
             src="https://www.youtube.com/embed/Ujsly7RUr7g" allow="fullscreen">
             </iframe>
        </div>
@@ -91,7 +83,7 @@
             <h2>Informations</h2>
             <p> <a href="welcome.html">Go back</a> to the first page</p>
             <!-- this clickable text leads to the wikipedia page of filling stations -->
-<p>See the <a href="https://en.wikipedia.org/wiki/Filling_station" target="blank" title="Wikipedia page of gas station">history of gas stations</a> by clicking here.</p>
+            <p> <a href="https://en.wikipedia.org/wiki/Filling_station" target="blank">Click here</a> to find out more on gas stations.</p>
             <p> For any problem with this website, <em>please contact us <a href="mailto:emilienne.vincens@uri.edu" > here. </a></em></p>
             <p>last update : october 2025</p>
         </div>
