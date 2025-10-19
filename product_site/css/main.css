@@ -2,11 +2,15 @@
 Main css file that rules the full design of the website. */
 
 body{background-color:#F1EFC8;
-    font-family:geneva;
+    font-family: geneva;
     color:darkgreen;
     clear:both;
+    max-width: 100%;
+    overflow-x: hidden;
+    
 }
-h1{ color:darkgreen;
+h1{ position: static; 
+    color:darkgreen;
     text-align:center;
     font-size:60px;
     font-weight:bolder;
@@ -21,9 +25,9 @@ h3{color:#C6AA58;
     display: inline-block;
 }
 
-#logo{
+#logo{position: absolute;
 	 margin:20px 0px 20px 20px;
-     padding: auto 0px ;
+     padding: 0px 0px ;
      width:auto;
      height:100px;
     float:left;}
@@ -101,7 +105,7 @@ float:left;}
     margin:0px 30px;
 }
 .searchbar a:hover {color:#C6A45D;
-        border:solid 1px #f1d88a;
+        border:solid 1px #C6A45D;
         font-size: 20px;
         cursor : pointer;
 }
@@ -163,17 +167,15 @@ float:left;}
   .header {
     float:none;
     display:block;
-    align:center
   }
  .minor-left{width:98%;
 }
 
  #logo{
-	 margin:0px ;
+	 margin:0px 100%;
      padding: 50px 0px;
      height:102px;
-     align-items:center; 
-     text-align: center;   
+     display:flex;
 }
 .main-right{
     width:100%;
