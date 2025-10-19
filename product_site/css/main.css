@@ -107,7 +107,7 @@ float:left;}
     margin:0px 30px;
 }
 .searchbar a:hover {color:#C6A45D;
-        border:solid 1px red;
+        border:solid 1px #C6A45D;
         font-size: 20px;
         cursor : pointer;
 }
