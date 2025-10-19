@@ -84,6 +84,7 @@ Header definition */
     padding:6px;
     text-align: center;
     width:100%;
+    box-sizing: border-box;
 }
 .header-left{display:flex;
 float:left;}
@@ -95,6 +96,7 @@ float:left;}
     justify-content:space-between;
     width:100%;
     margin: 0px;
+    box-sizing: border-box;
 }
 .searchbar a{color:#f1d88a;
     font-size: 20px;
@@ -124,12 +126,14 @@ float:left;}
     padding:15px;
     margin:7px 0px 0 0;
     float:left;
+    box-sizing: border-box;
     width:100%;
 
 }
 
 .minor-left{ 
-    width:30.5%;
+    box-sizing: border-box;
+    width:32.8%;
     float:left;
     text-align: center;
     border:solid 3px #C6A45D;
@@ -139,6 +143,7 @@ float:left;}
 }
 
 .minor-full{ 
+    box-sizing: border-box;
     width:100%;
     float:left;
     text-align: center;
