@@ -7,7 +7,10 @@ var distance = 2.5;
 var fuelPrice = 3.59
 var rating = 4.5; // out of 5
 
-var elements = document.getElementsByClassName('h3');
+var elements = document.getElementsByClassName('p');
 elements[0].innerHTML = “Here is some new text for example ” ;
 
+var element = document.getElementByClass('time');
+element.innerHTML = '<p>New content</p>';
 
+document.write("Welcome to Cosmic Horoscopes! 🌟Discover your destiny today.")
