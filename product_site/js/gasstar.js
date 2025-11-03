@@ -53,7 +53,6 @@ for (var i=0; i<element.length; i++){
        // document.querySelectorAll('p.price')[0].innerText =  "Syoooo";
         for (var j=0; j<names.length; j++){
             console.log("j=" + j);
-            console.log(window[FuelPrice][j]);
             if  (window[selectedFuel.value][j]=="0") {
                     document.querySelectorAll("div.list")[j].style.display = 'none';
                     console.log("hiding card");
