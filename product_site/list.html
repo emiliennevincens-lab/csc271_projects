@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <!-- I am Emilienne Vincens and this is my station full info page. It is due on Sunday 5th of October.
+     This page allows users to preview full info when they select a gas station. They have access to all the info to choose to go or go back to the list of the other gas stations. -->
+    <head>
+        <title>Full station info</title>
+        <link href="css/main.css" rel="stylesheet" type="text/css">
+        <link href="css/station.css" rel="stylesheet" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-EHM32TRVWD"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-EHM32TRVWD');
+        </script>
+    </head>
+    <body>
+
+        <!-- I used a different width and height than the image's size because when I was doing it, the resolution was really really bad and the website looked bad.
+         The image's size is ten times the width and height below, as the other images.-->
+        <div class="header">
+             <div class="header-left">
+             <a href="welcome.html"><img id="logo" src="images/logo_V2.png" alt="Gasstar's logo"></a>
+             </div>
+             <h1>Gasstar.com</h1>
+        </div>
+
+        <div class="searchbar">
+            <a class="link" href="welcome.html">Home</a>
+            <a class="link" href="upload.html">Plan</a>
+            <a class="active" href="stationinfo.html">Map</a>
+            <a class="link" href="welcome.html">Favourite</a>
+            <a class="link" href="welcome.html">Settings</a>
+        </div>
+
+                <!-- Filter label and dropdown to filter reviews by rating -->
+        <label for="fuel-filter">Filter by fuel type:</label>
+        <select id="fuel-filter">
+            <!-- Filter options for each rating level and 'All' option -->
+            <option value="All">All</option>
+            <option value="Diesel">Diesel</option>
+            <option value="Regular">Regular</option>
+            <option value="Plus">Plus</option>
+            <option value="Midgrade">Midgrade</option>
+            <option value="Premium">Premium</option>
+        </select>
+
+
+        <div class="list">
+                <h3> The name of the station</h3>
+                <p> </p>
+                <p class="time">x km to go </p>
+                <p class="price">Price of the chosen gas</p>
+                <div class="info"> <a href="upload.html"> Details </a></div>
+        </div>
+
+        <div class="list">
+                <h3> The name of the station</h3>
+                <p> </p>
+                <p class="time">x km to go </p>
+                <p class="price">Price of the chosen gas</p>
+                <div class="info"> <a href="upload.html"> Details </a></div>
+        </div>
+
+                <div class="list">
+                <h3> The name of the station</h3>
+                <p></p>
+                <p class="time">x km to go </p>
+                <p class="price">Price of the chosen gas</p>
+                <div class="info"> <a href="upload.html"> Details </a></div>
+        </div>
+
+                <div class="list">
+                <h3> The name of the station</h3>
+                <p> </p>
+                <p class="time">x km to go </p>
+                <p class="price">Price of the chosen gas</p>
+                <div class="info"> <a href="upload.html"> Details </a></div>
+        </div>
+
+
+        </div>
+    </div>
+
+
+
+        <div class="minor-full">
+        <!-- this clickable text leads to the wikipedia page of filling stations -->
+        <p>See the <a href="https://en.wikipedia.org/wiki/Filling_station" target="blank">history of gas stations</a> by clicking here.</p>
+        <p> For any problem with this website, <em>please contact us <a href="mailto:emilienne.vincens@uri.edu" > here. </a></em></p>
+        <p>last update : october 2025</p>
+        </div>
+
+        <script src="js/gasstar.js"></script>       
+    </body>
+
+</html>
