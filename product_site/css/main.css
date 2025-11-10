@@ -57,6 +57,7 @@ h3{color:#C6AA58;
      color:#f1d88a;
     float:right;
 }
+
 .info{font-size:x-large;
     float:left;
     margin: 10pX 60px ;
@@ -136,18 +137,13 @@ float:left;}
 
 }
 
-.minor-left{ 
+.list{width : 49.5%;
     box-sizing: border-box;
-    width:32.8%;
+    margin:5px 0px 0px 5px;
     float:left;
-    text-align: center;
-    border:solid 3px #C6A45D;
-    background-color:#f1d88a;
-    margin:7px 7px 0 0;
-    padding:10px;
 }
 
-.minor-full{ 
+.minor{ 
     box-sizing: border-box;
     width:100%;
     float:left;
@@ -157,6 +153,9 @@ float:left;}
     margin:7px 7px 0 0;
     padding:10px;
 }
+
+#fuel-filter{width:100%;
+float : left;}
 
 .tutorial{
     width:auto;
@@ -168,18 +167,9 @@ float:left;}
 }
 
 .main-right{
-    width:40%;
+    width:50%;
     float:right;
 }
-
-.list{width : 49.5%;
-    box-sizing: border-box;
-    margin:5px 0px 0px 5px;
-    float:left;
-}
-
-#fuel-filter{width:100%;
-float : left;}
 
 /* Difference wanted for smaller screens like phone screens */
  @media only screen and (max-width: 600px) {
@@ -215,13 +205,11 @@ h1{font-size:40px;}
      width:100px;
  }
 
- .list {
+  .list {
     width:100%;
  }
-
 
  .searchbar a{
     font-size: 15px;
     margin:0px 0px;}
  }
-
