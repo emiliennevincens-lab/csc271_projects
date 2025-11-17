@@ -9,7 +9,7 @@ body{background-color:#F1EFC8;
     overflow-x: hidden;
     
 }
-h1, { position: static; 
+h1 { position: static; 
     color:darkgreen;
     text-align:center;
     font-size:60px;
