@@ -35,7 +35,7 @@
         <h4> Add up your journey infos to upload it and find the best gas stations on your way!</h4>
 
         <!--This form leads to the welcome page and uses the method get-->
-        <form action="welcome.html" method="get">
+        <form action="list.html" method="get">
            
             <p> <img src="images/icon_plus.png" alt="plus icon" width="30" height="42"> 
                 Starting point : <input type="text" name="starting"> </p>
@@ -49,11 +49,16 @@
                                 <input type="radio" name="fueltype" value="gasoline91"> Midgrade gasoline 
                                 <input type="radio" name="fueltype" value="gasoline93"> Premium gasoline 
                             </p>
-            <br>
-            &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; <input type="submit" name="submit">
+            &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; <input type="submit" name="sendBtn" class='smallbutton' > 
 
         </form>
+        <div id="errorMessage"></div>
         
+        <div id="popup">
+        No gas type selected. Are you sure you want to see the stations? <br>
+        <div class="smallbutton" onclick="closePopup()">No</div>  <div class="smallbutton" onclick="submitform()">Yes</div>
+        </div>
+
         </div>
 
 
@@ -78,12 +83,14 @@
             src="https://www.youtube.com/embed/Ujsly7RUr7g" allow="fullscreen">
             </iframe>
        </div>
+       </div>
 
         <div class="minor">
         </div>
 
 
         <script src="js/function.js"></script> 
+        <script src="js/events.js"></script> 
     </body>
 
 </html>
