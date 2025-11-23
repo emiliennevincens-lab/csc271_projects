@@ -50,7 +50,7 @@ h3, #popup {color:#C6AA58;
      border-radius: 10px; 
      text-align:center;
      color:#f1d88a;
-      clear:left;
+     clear:left;
 }
 .smallbutton{text-align:center;
     display: inline-block;
@@ -105,6 +105,15 @@ a, a:visited {color: #C6AA58;
 
 a:hover{color :green;
 text-decoration:underline 2px green;}
+
+.heart {
+  font-size: 40px;
+  cursor: pointer;
+  color: darkgreen;
+  user-select: none;
+  float: center;  
+  margin : 20px
+}
 
 /*Beginning of div definitions, due on 13th of October
 

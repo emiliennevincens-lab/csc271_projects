@@ -8,9 +8,14 @@ console.log("JS file is connected!");
 
 
 var theform = document.querySelector("form");
+var gastype = document.querySelector('input[name="fueltype"]:checked');
+//console.log(gastype.value);
 var popup = document.getElementById("popup");
 var overlay = document.getElementById("overlay");
 
+
+if (gastype === null) {
+  
 
 theform.addEventListener("submit", function(e) {
             e.preventDefault(); // Prevent actual form submission
@@ -30,6 +35,8 @@ function submitform() {
             theform.submit();
             console.log("form submitted");
         }
+
+      }
 
 // Function to display error message if no fuel type is selected but i need to find a way to call it before the popup appears
 
