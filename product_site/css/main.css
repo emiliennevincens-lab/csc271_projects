@@ -235,8 +235,9 @@ float : left;}
     float:none;
     display:block;
   }
- .minor-left{width:98%;
+ .minor{width:100%  !important;
 }
+
 h1{font-size:40px;}
 
  #logo{
@@ -263,8 +264,8 @@ h1{font-size:40px;}
      width:100px;
  }
 
-  .list {
-    width:100%;
+  .list { width:100%;
+
  }
 
  .searchbar a{
