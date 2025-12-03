@@ -54,7 +54,7 @@ function down(width){
     downEl[i].innerHTML +=  '<p> <a href="welcome.html">Go back</a> to the first page</p>';
     downEl[i].innerHTML += '<p>See the <a href="https://en.wikipedia.org/wiki/Filling_station" target="blank">history of gas stations</a> by clicking here.</p>';
     downEl[i].innerHTML += '<p> For any problem with this website, <em>please contact us <a href="mailto:emilienne.vincens@uri.edu" > here. </a></em></p>';
-    downEl[i].innerHTML += '<p>last update : November 2025</p>';
+    downEl[i].innerHTML += '<p>last update : December 2025</p>';
 }
 
 header();
