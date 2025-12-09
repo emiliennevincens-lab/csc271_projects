@@ -30,7 +30,7 @@ var element = document.querySelector('.price')
 element.textContent = fuelType + " gas price = $"+ fuelPrice + "/gal";
 
 var imgElement = document.getElementsByClassName('imagetext');
-imgElement[0].src = "images/img_template.jpeg"; // for now it doesn't change the image but it will be useful in the future to adapt to each gas station
+imgElement[0].src = "images/convenience.jpeg"; // for now it doesn't change the image but it will be useful in the future to adapt to each gas station
 
 
 

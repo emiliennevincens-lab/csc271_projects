@@ -41,7 +41,7 @@ h3, #popup {color:#C6AA58;
     float:left;}
 
 .stationphoto{
-	 margin:20px 0px 20px 20px;
+	 margin:20px;
      padding: 0px 0px ;
      width:30%;
      height:auto;
@@ -263,6 +263,10 @@ h1{font-size:40px;}
      padding: 15px 3px 15px;
      width:100px;
 }
+
+.stationphoto {
+    display: none;
+  }
 
 #return{
      font-size:x-large;
