@@ -1,7 +1,7 @@
 console.log("JS file is connected!");  //just to check that the js file is properly linked to the html file
 
 
-var names = ['Kingston Convenience Mart', 'Mobil', 'Potters Sefice Station', 'Green Valley Oil'];
+var names = ['Kingston Convenience Mart', 'Mobil', 'Potters Services Station', 'Green Valley Oil'];
 var adress = ["2360 Kingstown Rd, Kingston, RI 02881", "1892 Kingstown Rd, Wakefield, RI 02881","186 Main St, Wakefield, RI 02879", "4087 Tower Hill Rd, Wakefield, RI 02879" ];
 var distance = [5, 10, 7, 12]; 
 

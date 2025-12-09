@@ -40,6 +40,13 @@ h3, #popup {color:#C6AA58;
      height:100px;
     float:left;}
 
+.stationphoto{
+	 margin:20px 0px 20px 20px;
+     padding: 0px 0px ;
+     width:30%;
+     height:auto;
+     float:right;}
+
 
 .button{text-align:center;
      font-size:xx-large;
